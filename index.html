@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <title>New Tab</title>
+  </head>
+
+  <body>
+    <div class="search_block">
+      <h1 id="greeting"></h1>
+      <form
+        id="search_eng_form"
+        method="get"
+        action="https://www.google.com/search"
+      >
+        <button type="button" class="se_btn" id="se_button">
+          <img id="se_icon" src="icons/goog.svg" class="filter-white" /></button
+        ><input
+          type="search"
+          id="search"
+          placeholder="Searching with Google"
+          autocomplete="off"
+          name="q"
+          autofocus
+        /><button type="submit" class="go" id="go_btn">GO</button>
+      </form>
+    </div>
+    <div class="entertainment">
+      <a href="https://www.youtube.com">youtube</a><br />
+      <a href="https://www.twitch.tv/">twitch</a><br />
+      <a href="https://animepahe.com">anime</a>
+    </div>
+    <div class="social">
+      <a href="https://old.reddit.com/">reddit</a><br />
+      <a href="https://www.twitter.com/home">twitter</a><br />
+      <a href="https://www.facebook.com">facebook</a><br />
+      <a href="https://www.m.me">messenger</a><br />
+      <a href="https://boards.4chan.org/g">/g/</a>
+    </div>
+    <div class="dev">
+      <a href="https://github.com/pyyro">github</a><br />
+      <a href="https://www.w3schools.com/">w3schools</a><br />
+    </div>
+    <h2 id="time"></h2>
+    <script async type="text/javascript" src="script.js"></script>
+  </body>
+</html>
