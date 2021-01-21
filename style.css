@@ -36,9 +36,9 @@ a:active {
 a:hover {
   color: #97cdfd;
 }
-.entertainment,
-.social,
-.dev {
+.col1,
+.col2,
+.col3 {
   display: inline-table;
   margin-top: 80px;
   margin-bottom: 10px;
